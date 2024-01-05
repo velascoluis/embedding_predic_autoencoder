@@ -1,5 +1,7 @@
 # Next semantic embedding prediction with Autoencoders
 
+- ![arch](src/assets/arch.png)
+
 This [notebook](src/fashion_embedding_prediction.ipynb) contains a sample implementation of next embedding prediction using an Autoencoder architecture.
 - Given a set of N "valid" embeddings, the model will learn to generate the "missing" embedding given N-1 embeddings.
     -  For example the training set could looks like:
